@@ -1,0 +1,129 @@
+/* Cllif */
+
+/* Fonts */
+@font-face {
+    font-family: 'corbertregular';
+    src: url('../font/corbert-regular-webfont.eot');
+    src: url('../font/corbert-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/corbert-regular-webfont.woff') format('woff'),
+         url('../font/corbert-regular-webfont.ttf') format('truetype'),
+         url('../font/corbert-regular-webfont.svg#corbertregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Comp */
+.center{margin-left: auto; margin-right: auto;}
+
+.transform{
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.content{
+	position: relative;
+	width: 1000px
+}
+
+/* Home */
+#bg-home{
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+}
+
+.home{height: 680px;}
+
+.logo{
+	height: 245px;
+	position: relative;
+	top: 40px;
+	width: 246px;
+}
+
+.text-home{
+	background-image: url("../img/comp/text-home.png");
+	bottom: 70px;
+	display: block;
+	height: 230px;
+	left: 50%;
+	margin-left: -128px;
+	position: absolute;
+	width: 286px;
+}
+
+.down{
+	border-bottom: 10px solid #fff;
+	border-left: 10px solid #fff;
+	bottom: 20px;
+	height: 20px;
+	left: 50%;
+	margin-left: -10px;
+	position: absolute;
+	width: 20px;
+
+	-webkit-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
+	-o-transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+}
+.down:hover{
+	cursor: pointer;
+	-webkit-transform:scale(1.2) rotate(-45deg);
+	-moz-transform:scale(1.2) rotate(-45deg);
+	-o-transform:scale(1.2) rotate(-45deg);
+	-ms-transform:scale(1.2) rotate(-45deg);
+	transform:scale(1.2) rotate(-45deg);
+}
+
+/* Nos */
+.nos{background-color: #eee;}
+
+.logo-nos{
+	height: 116px;
+	position: relative;
+	width: 226px;
+}
+
+#bola-content{
+	display: block;
+	border: 1px solid #000;
+	border-radius: 50%;
+	height: 413px;
+	position: absolute;
+	width: 413px;
+}
+
+.bola-cllifer{
+	border: 1px solid #000;
+	border-radius: 50%;
+	height: 175px;
+	position: absolute;
+	width: 175px;
+}
+
+.bola-cllifer-in{
+	border-radius: 50%;
+	height: 160px;
+	left: 50%;
+	margin-left: -80px;
+	margin-top: -80px;
+	position: absolute;
+	width: 160px;
+	top: 50%;
+}
+
+.taina{right: 0; top: 218px;}
+#taina-pic{background-image: url("../img/comp/cliffers/taina.png");}
+
+.julio{right: 0; top: 436px;}
+#julio-pic{background-image: url("../img/comp/cliffers/julio.png");}
+
+.victor{right: 94px; top: 639px;}
+#victor-pic{background-image: url("../img/comp/cliffers/victor.png");}
